@@ -33,8 +33,14 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
-      - name: Create SPA fallback
-        run: cp dist/index.html dist/404.html
+      - name: Create route-aware SPA fallbacks
+        run: |
+          mkdir -p dist/about dist/services dist/projects dist/contact
+          cp dist/index.html dist/404.html
+          cp dist/index.html dist/about/index.html
+          cp dist/index.html dist/services/index.html
+          cp dist/index.html dist/projects/index.html
+          cp dist/index.html dist/contact/index.html
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact
