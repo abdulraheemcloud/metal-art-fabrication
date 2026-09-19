@@ -55,12 +55,12 @@ export function Header() {
             <ul className="flex items-center gap-8">
               {navItems.map((item) => (
                 <li key={item.href}>
-                  <a
-                    href={item.href}
+                  <Link
+                    to={item.href}
                     className="relative py-2 text-xs font-semibold uppercase tracking-[0.18em] text-bone-200/80 transition-colors hover:text-accent-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-400 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950"
                   >
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -103,8 +103,8 @@ export function Header() {
             <ul className="divide-y divide-white/10 py-2">
               {navItems.map((item) => (
                 <li key={item.href}>
-                  <a
-                    href={item.href}
+                  <Link
+                    to={item.href}
                     onClick={closeMenu}
                     className="flex items-center justify-between px-1 py-4 text-sm font-semibold uppercase tracking-[0.16em] text-bone-100 transition-colors hover:text-accent-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-400 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950"
                   >
@@ -112,7 +112,7 @@ export function Header() {
                     <span className="text-xs text-steel-500" aria-hidden="true">
                       0{navItems.indexOf(item) + 1}
                     </span>
-                  </a>
+                  </Link>
                 </li>
               ))}
               <li className="pt-5">

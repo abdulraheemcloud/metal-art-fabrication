@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Container } from "../components/ui/Container";
 import { Button } from "../components/ui/Button";
 import { useSEO } from "../hooks/useSEO";
@@ -23,8 +24,8 @@ export function NotFound() {
             The page you are looking for does not exist or has been moved.
           </p>
           <div className="mt-10">
-            <Button href="/" size="lg">
-              Return home
+            <Button asChild size="lg">
+              <Link to="/">Return home</Link>
             </Button>
           </div>
         </div>
