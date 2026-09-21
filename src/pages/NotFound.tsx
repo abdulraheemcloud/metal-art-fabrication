@@ -4,7 +4,10 @@ import { Button } from "../components/ui/Button";
 import { useSEO } from "../hooks/useSEO";
 
 export function NotFound() {
-  useSEO("Page Not Found | Metal Art Fabrication", "The requested page could not be found.");
+  useSEO({
+    title: "Page Not Found | Metal Art Fabrication",
+    description: "The requested page could not be found.",
+  });
 
   return (
     <section className="relative overflow-hidden bg-ink-950 text-bone-50 py-24 sm:py-28 lg:py-36" aria-labelledby="not-found-title">

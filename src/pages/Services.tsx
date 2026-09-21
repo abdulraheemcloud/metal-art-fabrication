@@ -5,7 +5,11 @@ import { Link } from "react-router-dom";
 import { useSEO } from "../hooks/useSEO";
 
 export function ServicesPage() {
-  useSEO("Metal Fabrication Services | Metal Art Fabrication, Coimbatore", "Explore metal fabrication and welding services from Metal Art Fabrication in Coimbatore.");
+  useSEO({
+    title: "Metal Fabrication Services in Coimbatore | Gates, Shutters & More",
+    description: "Explore metal fabrication services in Coimbatore including gates, grills, railings, rolling shutters, staircases, structural steel, sheds, roofing and industrial fabrication.",
+    canonical: "https://abdulraheemcloud.github.io/metal-art-fabrication/services",
+  });
 
   return (
     <>
@@ -22,7 +26,7 @@ export function ServicesPage() {
               Metal Art Fabrication
             </div>
             <h1 id="page-title" className="mt-8 text-balance text-4xl leading-[1.04] tracking-[-0.045em] text-bone-50 sm:text-5xl lg:text-6xl">
-              Fabrication Services
+              Metal Fabrication Services in Coimbatore
             </h1>
             <p className="mt-7 max-w-2xl text-base leading-8 text-bone-200/75 sm:text-lg sm:leading-9">
               These categories represent the general types of fabrication and welding enquiries we handle.

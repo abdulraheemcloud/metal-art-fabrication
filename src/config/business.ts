@@ -1,15 +1,15 @@
 export const business = {
   name: "Metal Art Fabrication",
-  tagline: "Metal fabrication in Peelamedu, Coimbatore",
+  tagline: "We build it strong. We build it right",
   location: "Peelamedu, Coimbatore, Tamil Nadu 641004, India",
-  phone: "",
-  whatsapp: "",
-  email: "",
+  phone: "9003414250",
+  whatsapp: "9003414250",
+  email: "metalartfabrication@yahoo.com",
   address: [
-    "Ellaithottam Road, Ramasamy Layout,",
-    "Peelamedu, Coimbatore,",
-    "Tamil Nadu 641004, India",
+    "240, Ramasamy Layout,",
+    "Ellaithottam Road,",
+    "Peelamedu – 641004, Tamil Nadu, India",
   ] as const,
-  hours: "",
+  hours: "Monday–Saturday: 9:00 AM–8:00 PM, Sunday: Closed",
   socialLinks: [],
 } as const;

@@ -9,7 +9,11 @@ import { Location } from "../components/sections/Location";
 import { useSEO } from "../hooks/useSEO";
 
 export function Home() {
-  useSEO("Metal Art Fabrication | Custom Metal Fabrication in Peelamedu, Coimbatore", "Custom metal fabrication and welding solutions in Peelamedu, Coimbatore.");
+  useSEO({
+    title: "Metal Fabrication in Coimbatore | Metal Art Fabrication",
+    description: "Metal Art Fabrication in Peelamedu, Coimbatore provides custom MS and stainless steel fabrication, gates, grills, railings, rolling shutters, staircases, sheds and industrial fabrication.",
+    canonical: "https://abdulraheemcloud.github.io/metal-art-fabrication/",
+  });
 
   return (
     <>

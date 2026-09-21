@@ -27,12 +27,13 @@ export function Hero() {
               id="hero-title"
               className="mt-8 text-balance text-5xl leading-[0.98] tracking-[-0.055em] text-bone-50 sm:text-6xl lg:text-7xl xl:text-[5.25rem]"
             >
-              Metal Fabrication for Practical, Custom Requirements
+              Custom Metal Fabrication in Coimbatore
             </h1>
 
             <p className="mt-8 max-w-xl text-balance text-base leading-8 text-bone-200/80 sm:text-lg sm:leading-9">
-              Metal Art Fabrication is based in Peelamedu, Coimbatore. Visitors can discuss their metal fabrication
-              or welding requirement, share measurements or ideas, and enquire about the work they need.
+              Metal Art Fabrication specializes in custom metal works including gates, grills, railings, rolling shutters,
+              staircases, roofing structures and fabrication solutions for residential, commercial and industrial
+              requirements.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -47,15 +48,15 @@ export function Hero() {
             <ul className="mt-14 flex flex-wrap gap-x-8 gap-y-4 border-t border-white/10 pt-7 text-[11px] font-semibold uppercase tracking-[0.2em] text-bone-200/60">
               <li className="flex items-center gap-2.5">
                 <span className="h-px w-6 bg-accent-400/70" aria-hidden="true" />
-                Based in Peelamedu, Coimbatore
+                Based in Coimbatore
               </li>
               <li className="flex items-center gap-2.5">
                 <span className="h-px w-6 bg-accent-400/70" aria-hidden="true" />
-                Custom fabrication enquiries
+                Custom metal fabrication
               </li>
               <li className="flex items-center gap-2.5">
                 <span className="h-px w-6 bg-accent-400/70" aria-hidden="true" />
-                Practical, detail-focused approach
+                Residential to industrial projects
               </li>
             </ul>
           </div>

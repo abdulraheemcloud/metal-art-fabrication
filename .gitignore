@@ -3,3 +3,4 @@ dist/
 .kilo/
 *.tsbuildinfo
 .DS_Store
+.env*

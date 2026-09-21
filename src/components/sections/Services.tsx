@@ -87,8 +87,8 @@ export function Services() {
               <span className="text-accent-400">discuss with us.</span>
             </h2>
             <p className="mt-7 max-w-2xl text-base leading-8 text-bone-200/75 sm:text-lg sm:leading-9">
-              These categories represent the general types of fabrication and welding enquiries we handle. Each entry is a
-              placeholder until the business confirms the final service offering.
+              These are the general types of fabrication and welding enquiries we handle. Discuss your
+              requirement and we will confirm the right approach for your project.
             </p>
           </div>
         </div>
@@ -100,7 +100,7 @@ export function Services() {
           {services.map((service, index) => (
             <article
               key={service.id}
-              className={`group relative flex min-h-[19rem] flex-col overflow-hidden border border-white/10 bg-white/[0.025] p-7 shadow-[0_20px_60px_-35px_rgba(0,0,0,0.7)] transition-colors duration-300 hover:border-accent-400/40 hover:bg-white/[0.045] focus-within:border-accent-400/40 reveal ${isVisible ? "visible" : ""}`}
+              className={`group relative flex min-h-[19rem] flex-col border border-white/10 bg-white/[0.025] p-7 shadow-[0_20px_60px_-35px_rgba(0,0,0,0.7)] transition-colors duration-300 hover:border-accent-400/40 hover:bg-white/[0.045] focus-within:border-accent-400/40 reveal ${isVisible ? "visible" : ""}`}
               style={{ transitionDelay: `${0.1 + index * 0.08}s` }}
             >
               <span
@@ -154,8 +154,7 @@ export function Services() {
         >
           <span className="mt-0.5 h-1.5 w-1.5 shrink-0 bg-accent-400" aria-hidden="true" />
           <p>
-            Service content is intentionally unverified. Replace these placeholder entries with approved customer
-            information before publishing this section as a confirmed capability list.
+            Contact us to discuss your specific requirement and confirm details, pricing, and timelines.
           </p>
         </div>
       </Container>

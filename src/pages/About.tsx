@@ -7,7 +7,11 @@ import { Link } from "react-router-dom";
 import { useSEO } from "../hooks/useSEO";
 
 export function AboutPage() {
-  useSEO("About Metal Art Fabrication | Metalwork in Coimbatore", "Learn about Metal Art Fabrication and our approach to practical, custom metal fabrication in Coimbatore.");
+  useSEO({
+    title: "About Metal Art Fabrication | Coimbatore",
+    description: "Learn about Metal Art Fabrication, a Coimbatore-based welding fabrication and engineering works business providing custom metal solutions for residential, commercial and industrial requirements.",
+    canonical: "https://abdulraheemcloud.github.io/metal-art-fabrication/about",
+  });
 
   return (
     <>
@@ -24,7 +28,7 @@ export function AboutPage() {
               Metal Art Fabrication
             </div>
             <h1 id="page-title" className="mt-8 text-balance text-4xl leading-[1.04] tracking-[-0.045em] text-bone-50 sm:text-5xl lg:text-6xl">
-              About Metal Art Fabrication
+              Metal Fabrication & Engineering Works in Coimbatore
             </h1>
             <p className="mt-7 max-w-2xl text-base leading-8 text-bone-200/75 sm:text-lg sm:leading-9">
               Based in Peelamedu, Coimbatore. We handle fabrication and welding enquiries for custom metalwork.

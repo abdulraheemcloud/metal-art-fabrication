@@ -36,8 +36,9 @@ export function About() {
             </h2>
 
             <p className="mt-7 max-w-xl text-base leading-8 text-bone-200/75 sm:text-lg sm:leading-9">
-              Metal Art Fabrication is based in Peelamedu, Coimbatore. We handle fabrication and welding enquiries for
-              custom metalwork — from brackets and frames to decorative pieces and repairs.
+              Metal Art Fabrication specializes in custom metal works including gates, grills, railings,
+              rolling shutters, staircases, roofing structures and fabrication solutions for residential,
+              commercial and industrial requirements.
             </p>
 
             <p className="mt-5 max-w-xl text-base leading-8 text-bone-200/75 sm:text-lg sm:leading-9">
@@ -57,7 +58,7 @@ export function About() {
               </div>
               <div className="bg-ink-950 p-5">
                 <dt className="text-[9px] font-semibold uppercase tracking-[0.2em] text-steel-400">Profile</dt>
-                <dd className="mt-3 text-sm font-semibold leading-6 text-accent-400">Local fabrication workshop</dd>
+                <dd className="mt-3 text-sm font-semibold leading-6 text-accent-400">Welding Fabrication &amp; Engineering Works</dd>
               </div>
             </dl>
 

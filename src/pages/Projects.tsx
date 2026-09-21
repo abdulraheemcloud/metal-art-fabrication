@@ -5,7 +5,11 @@ import { Link } from "react-router-dom";
 import { useSEO } from "../hooks/useSEO";
 
 export function ProjectsPage() {
-  useSEO("Metal Fabrication Projects | Metal Art Fabrication, Coimbatore", "Explore selected metal fabrication and welding projects from Metal Art Fabrication in Coimbatore.");
+  useSEO({
+    title: "Metal Fabrication Work Showcase | Metal Art Fabrication",
+    description: "Explore representative metal fabrication work and solutions including gates, grills, staircases, structural steel, sheds, rolling shutters, racks and industrial fabrication.",
+    canonical: "https://abdulraheemcloud.github.io/metal-art-fabrication/projects",
+  });
 
   return (
     <>
@@ -22,7 +26,7 @@ export function ProjectsPage() {
               Metal Art Fabrication
             </div>
             <h1 id="page-title" className="mt-8 text-balance text-4xl leading-[1.04] tracking-[-0.045em] text-bone-50 sm:text-5xl lg:text-6xl">
-              Projects
+              Fabrication Work & Solutions
             </h1>
             <p className="mt-7 max-w-2xl text-base leading-8 text-bone-200/75 sm:text-lg sm:leading-9">
               Selected fabrication work and metalwork details. This gallery is prepared for verified customer projects.

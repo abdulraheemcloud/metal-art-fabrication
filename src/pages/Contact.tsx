@@ -6,7 +6,11 @@ import { Link } from "react-router-dom";
 import { useSEO } from "../hooks/useSEO";
 
 export function ContactPage() {
-  useSEO("Contact Metal Art Fabrication | Coimbatore", "Contact Metal Art Fabrication in Peelamedu, Coimbatore for custom metal fabrication enquiries.");
+  useSEO({
+    title: "Contact Metal Art Fabrication | Peelamedu, Coimbatore",
+    description: "Contact Metal Art Fabrication in Peelamedu, Coimbatore for custom welding, metal fabrication, gates, grills, railings, rolling shutters, staircases, sheds and engineering works.",
+    canonical: "https://abdulraheemcloud.github.io/metal-art-fabrication/contact",
+  });
 
   return (
     <>
@@ -23,7 +27,7 @@ export function ContactPage() {
               Metal Art Fabrication
             </div>
             <h1 id="page-title" className="mt-8 text-balance text-4xl leading-[1.04] tracking-[-0.045em] text-bone-50 sm:text-5xl lg:text-6xl">
-              Contact
+              Contact Metal Art Fabrication in Coimbatore
             </h1>
             <p className="mt-7 max-w-2xl text-base leading-8 text-bone-200/75 sm:text-lg sm:leading-9">
               Share the shape of your requirement and start a focused conversation about the work ahead.

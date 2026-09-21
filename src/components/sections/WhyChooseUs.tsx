@@ -10,23 +10,23 @@ type ValueItem = {
 const values: readonly ValueItem[] = [
   {
     number: "01",
-    title: "Requirement-focused discussion",
-    description: "We start with your brief — materials, dimensions, intended use — and shape the conversation around what you actually need.",
+    title: "Accurate Measurements",
+    description: "Every measurement is taken carefully before fabrication begins, so materials and dimensions are correct from the start.",
   },
   {
     number: "02",
-    title: "Practical fabrication approach",
-    description: "Options are presented based on what works for the project, not what fits a pre-set package. You get a straightforward view of the work involved.",
+    title: "Quality Materials",
+    description: "We use appropriate-grade steel and fittings suited to the intended use and environment of each fabrication.",
   },
   {
     number: "03",
-    title: "Clear communication",
-    description: "Questions, decisions, and next steps are kept visible so the project discussion remains easy to follow from start to finish.",
+    title: "Strong Workmanship",
+    description: "Welds, joints, and finishes are completed with care so each piece is built to last.",
   },
   {
     number: "04",
-    title: "Attention to fabrication details",
-    description: "Proportion, edges, joints, and finish considerations get the space they need in the conversation and the work.",
+    title: "Custom Solutions",
+    description: "Every project is shaped around your specific measurements, space, and functional requirements.",
   },
 ];
 
@@ -72,8 +72,8 @@ export function WhyChooseUs() {
               <span className="text-accent-400">approach a project.</span>
             </h2>
             <p className="mt-7 max-w-xl text-base leading-8 text-bone-200/75 sm:text-lg sm:leading-9">
-              These principles describe how we handle fabrication enquiries. They are not guarantees or verified
-              achievements — they are the working approach we aim for on every project.
+              These are the standards we follow on every project — accurate measurements, quality materials,
+              strong workmanship, and custom solutions tailored to each requirement.
             </p>
           </div>
 

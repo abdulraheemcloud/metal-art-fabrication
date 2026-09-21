@@ -318,7 +318,7 @@ function Contact() {
                   Clear form
                 </Button>
                 <Button type="submit" className="sm:ml-auto">
-                  Send enquiry
+                  Send Enquiry
                 </Button>
               </div>
             </form>

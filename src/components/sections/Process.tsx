@@ -5,27 +5,39 @@ import { Container } from "../ui/Container";
 const steps = [
   {
     number: "01",
-    title: "Discuss Your Requirement",
+    title: "Requirement",
     description:
-      "We listen to the brief, review any references or drawings, and clarify the scope, materials, and timeline before any work begins.",
+      "We listen to your brief, review any references or drawings, and clarify the scope, materials, and timeline before any work begins.",
   },
   {
     number: "02",
-    title: "Plan & Prepare",
+    title: "Measurement & Planning",
     description:
-      "The requirement is translated into a practical plan — material selection, cutting lists, fabrication sequence, and any sub-contracted operations are confirmed.",
+      "The site or location is measured and a practical plan is prepared — cutting lists, fabrication sequence, and any sub-contracted operations are confirmed.",
   },
   {
     number: "03",
-    title: "Fabricate",
+    title: "Material Selection",
     description:
-      "The workpiece is cut, formed, joined, and finished in the workshop using the agreed processes. Progress is tracked against the plan.",
+      "Appropriate-grade steel, fittings, and finishes are selected based on the intended use and environment of the fabrication.",
   },
   {
     number: "04",
-    title: "Final Check & Handover",
+    title: "Fabrication & Welding",
     description:
-      "The completed piece is inspected against the original requirement, any protective finishes are applied, and the work is prepared for collection or delivery.",
+      "The workpiece is cut, formed, joined, and finished in the workshop using agreed processes. Progress is tracked against the plan.",
+  },
+  {
+    number: "05",
+    title: "Finishing",
+    description:
+      "The completed piece receives any protective finishes, coatings, or surface treatments required for durability and appearance.",
+  },
+  {
+    number: "06",
+    title: "Installation",
+    description:
+      "The finished work is transported to the site, installed, and inspected against the original requirement.",
   },
 ] as const;
 
@@ -60,10 +72,9 @@ export function Process() {
             A clear{" "}
             <span className="text-accent-400">fabrication process.</span>
           </h2>
-          <p className="mt-7 max-w-2xl mx-auto text-base leading-8 text-bone-200/75 sm:text-lg sm:leading-9">
-            Every project follows a consistent sequence so you know what to expect at each stage. The wording below is
-            generic and does not represent any specific business claim.
-          </p>
+            <p className="mt-7 max-w-2xl mx-auto text-base leading-8 text-bone-200/75 sm:text-lg sm:leading-9">
+              Every project follows a consistent sequence from requirement through installation so you know what to expect at each stage.
+            </p>
         </div>
 
         <div

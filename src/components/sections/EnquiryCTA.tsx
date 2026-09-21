@@ -38,9 +38,15 @@ export function EnquiryCTA() {
             and get back to you with the next steps.
           </p>
 
-          <div className="mt-10 flex items-center justify-center gap-4">
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+            <Button href="tel:9003414250" variant="primary" size="lg">
+              Call Now
+            </Button>
+            <Button href="https://wa.me/9003414250" target="_blank" rel="noreferrer" variant="secondary" size="lg">
+              WhatsApp Us
+            </Button>
             <Button href="#contact" variant="primary" size="lg">
-              Send an Enquiry
+              Send Enquiry
             </Button>
           </div>
 
